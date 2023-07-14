@@ -172,12 +172,6 @@ public class ChatController {
                 .resultNum(100)
                 .build();
 
-        /*
-    private String userId;
-    private String chatId;
-    private String chatWords;
-    private int resultNum;
-        * */
 
         return ResponseEntity.ok().body(response);
     }
